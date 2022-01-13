@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import StoryblokClient from "storyblok-js-client";
 
 const Storyblok = new StoryblokClient({
-  accessToken: "c1g4yy5Pro9MeJrxV9grQAtt",
+  accessToken: "wxO2A7kc6GqRcWDugC4u0Att",
   cache: {
     clear: "auto",
     type: "memory",
-  },
+  }
 });
 
 export async function getAllItems(components, locale, sort_by) {
