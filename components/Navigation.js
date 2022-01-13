@@ -15,7 +15,7 @@ const Navigation = ({ locale, locales }) => {
     nl: 'Nieuws',
   }
   const resolveMerchandise = {
-    en: 'Country',
+    en: 'Countries',
     nl: 'Winkel',
   }
   let homeurl = "/";
