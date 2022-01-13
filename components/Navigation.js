@@ -3,19 +3,19 @@ import Image from "next/image"
 
 const Navigation = ({ locale, locales }) => {
   const resolveMovies = {
-    en: 'Movies',
+    en: 'Buildings',
     nl: 'Films',
   }
   const resolvePeople = {
-    en: 'People',
+    en: 'Architects',
     nl: 'Mensen',
   }
   const resolveNews = {
-    en: 'News',
+    en: 'Tourist information',
     nl: 'Nieuws',
   }
   const resolveMerchandise = {
-    en: 'Shop',
+    en: 'Country',
     nl: 'Winkel',
   }
   let homeurl = "/";
