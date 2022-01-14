@@ -52,7 +52,7 @@ const Components = {
   'twocol':TwoCol,
   'title':Title,
   'topmovies':TopMovies,
-  'building':Building
+  
 }
 
 
